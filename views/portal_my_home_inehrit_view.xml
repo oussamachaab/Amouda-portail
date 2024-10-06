@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <template id="my_custom_portal_home" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@class='o_portal_wrap']" position="attributes">
+            <attribute name="style">
+                                    background-image: url('new_app/static/description/amouda.png'); 
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    min-height: 100%;
+                                    padding: 15px;
+
+                </attribute>
+        </xpath>
+    </template>
+    <template id="my_custom_portal_homee" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@id='o_my_sidebar']" position="attributes">
+            <attribute name="style">
+                                    opacity: 1;
+                                    color: #ffffff;
+                </attribute>
+        </xpath>
+    </template>
+
+
+
+
+
+        
+</odoo>

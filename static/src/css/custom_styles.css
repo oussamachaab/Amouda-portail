@@ -1,0 +1,9 @@
+
+.o_portal_wrap {
+    background-image: url('new_app/static/description/amouda.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+
+}
